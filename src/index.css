@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: peyda;
+
+    src: url('./Fonts/PeydaWeb-Regular.eot');
+    src:
+      url('./Fonts/PeydaWeb-Regular.woff') format('woff'),
+      url('./Fonts/PeydaWeb-Regular.woff2') format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: peydaMedium;
+
+    src: url('./Fonts/PeydaWeb-Medium.eot');
+    src:
+      url('./Fonts/PeydaWeb-Medium.woff') format('woff'),
+      url('./Fonts/PeydaWeb-Medium.woff2') format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: peydaBold;
+
+    src: url('./Fonts/PeydaWeb-Bold.eot');
+    src:
+      url('./Fonts/PeydaWeb-Bold.woff') format('woff'),
+      url('./Fonts/PeydaWeb-Bold.woff2') format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: peydaBlack;
+    src: url('./Fonts/PeydaWeb-Black.eot');
+    src:
+      url('./Fonts/PeydaWeb-Black.woff') format('woff'),
+      url('./Fonts/PeydaWeb-Black.woff2') format('woff2');
+  }
+}

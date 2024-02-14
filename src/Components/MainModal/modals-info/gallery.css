@@ -1,0 +1,7 @@
+.swiper .swiper-pagination {
+  /* margin-bottom: -20px; */
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff38c;
+}
